@@ -39,11 +39,11 @@ ckpt_freq: 100
 
 save_adapters: true # Must be False if full_finetuning is True
 
-run_dir: ""  # Fill
+run_dir: "../tuned_moshi_model"  # Fill
 
 # This part is optional and can be kept commented out
-# wandb:
-#   project: "" # your wandb project name
-#   run_name: "" # your wandb run name
-#   key: "" # your wandb api key
-#   offline: False
+wandb:
+  project: "moshi-ft" # your wandb project name
+  entity: "prime-labs" # your wandb run name
+  key: "" # your wandb api key
+  offline: False
