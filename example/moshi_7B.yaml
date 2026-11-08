@@ -44,5 +44,6 @@ run_dir: "../tuned_moshi_model"  # Fill
 # This part is optional and can be kept commented out
 wandb:
   project: "moshi-ft" # your wandb project name
+  entity: "tolulope-primelabs"
   key: "" # your wandb api key
   offline: False
