@@ -1,8 +1,8 @@
 # data
 data:
-  eval_data: '~/moshi_teacher/moshi_teacher/eval.jsonl' # Optional Fill
+  eval_data: '/data/home/tolulope/moshi_teacher/moshi_teacher/eval.jsonl' # Optional Fill
   shuffle: true
-  train_data: '~/moshi_teacher/moshi_teacher/train.jsonl' # Fill
+  train_data: '/data/home/tolulope/moshi_teacher/moshi_teacher/train.jsonl' # Fill
 
 # model
 moshi_paths: 
