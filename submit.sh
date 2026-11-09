@@ -7,5 +7,8 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=0
 
+
+export WANDB_ENTITY="prime-labs" 
+
 # Execute your existing uv run script inside the allocation
 bash run_together.sh
