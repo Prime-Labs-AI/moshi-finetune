@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# pip install uv
+pip install uv
 
-# export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 uv pip install --python /data/home/tolulope/moshi-finetune/.venv wandb
 
