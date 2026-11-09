@@ -1,10 +1,10 @@
 #!/bin/bash
 
-pip install uv
+# pip install uv
 
 export PATH="$HOME/.local/bin:$PATH"
 
-uv pip install --python /home/tolulope/moshi-finetune/.venv wandb
+# uv pip install --python /home/tolulope/moshi-finetune/.venv wandb
 
 # Force uv to pull dependencies down ignoring old cache fragments
 uv sync --refresh
