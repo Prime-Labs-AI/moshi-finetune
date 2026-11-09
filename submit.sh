@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=0
 
-rm -r ../tuned_moshi_model
+rm -r /home/tolulope/tuned_moshi_model
 
 export WANDB_ENTITY="prime-labs" 
 
